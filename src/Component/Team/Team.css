@@ -1,0 +1,31 @@
+
+.cart-wrapper {
+	margin: 5px;
+	width: 300px;
+	padding: 10px;
+	background-color: aliceblue;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #ddd;
+}
+.img-style{
+	margin-left: 32px;
+}
+button {
+	background: #28125f;
+	color: #fff;
+	padding: 6px 33px;
+}
+.teamInformation{
+	background-color: #ddd;
+}
+
+@media (max-width: 922px) {
+	.cart-wrapper {
+		width: 471px;
+	}
+  }
+@media (max-width: 480px) {
+	.cart-wrapper {
+	   width: 100%;
+	}
+  }
